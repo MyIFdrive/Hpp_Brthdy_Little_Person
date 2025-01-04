@@ -9,13 +9,62 @@
 <body style="font-family: monospace;">
     <div class="night"></div>
 
-    <div class="bloco" style="height: 2430vh; margin: 20px;">
+    <div class="bloco" style="height: 2325vh; margin: 20px;">
 
-        <div class="titulo">
-            <h1>Eu não disse que o problema não era a falta de palavras?<br> <br></h1>
+
+        <style>
+            .cabeçalho {
+               animation-duration: 3s;
+               animation-name: slidein;
+             }
+             @keyframes slidein {
+               from {
+                 margin-top: 500%;
+                 height: 300%;
+               }
+               to {
+                 margin-top: 7%;
+                 height: 300%;
+               }
+             }
+             
+             h2 {
+                opacity: 0;
+                animation: fadeInAnimation ease 5s;
+                animation-delay: 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+             }
+
+             .texto {
+                opacity: 0;
+                animation: fadeInAnimation ease 5s;
+                animation-delay: 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+            }
+        
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+      
+          </style>
+
+        <div class="cabeçalho">
+            <div class="titulo">
+                <h1>Eu não disse que o problema não era a falta de palavras?<br> <br></h1>
+            </div>
+            <h2 style="color: antiquewhite; text-align: center;">Temos aqui todos os elogios da língua portuguesa que eu encontrei, de A a Z.<br> <br> <br></h2>
+            <h2 style="color: antiquewhite; text-align: center;">Você é isso tudinho aqui e mais um pouco: <br> <br> <br></h2>
         </div>
-        <h2 style="color: antiquewhite; text-align: center;">Temos aqui todos os elogios da língua portuguesa que eu encontrei, de A a Z.<br> <br> <br></h2>
-        <h2 style="color: antiquewhite; text-align: center;">Você é isso tudinho aqui e mais um pouco: <br> <br> <br></h2>
+
+
+
 
         <h2 style="color: antiquewhite; text-align: center; font-size: 30px;">A</h2>
         <div class="texto" style="font-size: 13px; line-height: 2em;">
